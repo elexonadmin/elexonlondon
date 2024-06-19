@@ -12,6 +12,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@1..900&display=swap" rel="stylesheet">
 	<noscript>
 		<link rel="stylesheet" href="assets/css/noscript.css" />
 	</noscript>
@@ -21,7 +24,10 @@
 	<div id="page-wrapper">
 		<!-- Header -->
 		<header id="header">
-			<h1 id="logo"><a href="index.html">Elexon</a></h1>
+			<h1 id="logo">
+				<a href="index.html">Elexon</a>
+			</h1>
+			<img src="images/pic-01.png" alt="" />
 			<nav id="nav">
 				<ul>
 					<li><a href="index.html">Home</a></li>
@@ -33,12 +39,15 @@
 
 		<!-- Banner -->
 		<section id="banner">
+			<video autoplay muted loop id="video-bg">
+				<source src="/videos/thunder.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+			</video>
 			<div class="content">
 				<header>
-					<h2>Elexon Electrical Services</h2>
+					<h2 class="elexonh2">Elexon Electrical Services</h2>
 					<p>Powering London Safely and Efficiently</p>
 				</header>
-				<span class="image"><img src="images/pic-01.png" alt="" /></span>
 			</div>
 			<a href="#one" class="goto-next scrolly">Next</a>
 		</section>
@@ -160,7 +169,8 @@
 			<div class="container">
 				<header>
 					<h2>Let's Connect</h2>
-					<p><strong>Contact us</strong> today to discuss your electrical needs. We're here to help with any questions or inquiries you may have. Let's make your electrical projects a success together!</p>
+					<p><strong>Contact us</strong> today to discuss your electrical needs. We're here to help with any
+						questions or inquiries you may have. Let's make your electrical projects a success together!</p>
 				</header>
 				<form method="post" action="#" class="cta">
 					<div class="row gtr-uniform gtr-50">
