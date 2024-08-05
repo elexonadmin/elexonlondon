@@ -1,230 +1,494 @@
-<!DOCTYPE HTML>
-<!--
-	Landed by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-	<title>Elexon Electrical Services</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<link rel="stylesheet" href="assets/css/main.css" />
-	<link rel="icon" type="image/x-icon" href="images/favicon.ico">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@1..900&display=swap" rel="stylesheet">
-	<noscript>
-		<link rel="stylesheet" href="assets/css/noscript.css" />
-	</noscript>
+  <title>Elexon Electrical Services</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,700" rel="stylesheet">
+  <link rel="stylesheet" href="fonts/icomoon/style.css">
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/jquery-ui.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+  <link rel="stylesheet" href="css/aos.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body class="is-preload landing">
-	<div id="page-wrapper">
-		<!-- Header -->
-		<header id="header">
-			<h1 id="logo">
-				<a href="index.html">Elexon</a>
-			</h1>
-			<img src="images/pic-01.png" alt="" />
-			<nav id="nav">
-				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="#one">Services</a></li>
-					<li><a href="#last">Contact</a></li>
-				</ul>
-			</nav>
-		</header>
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+  <div id="overlayer"></div>
+  <div class="loader">
+    <div class="spinner-border text-primary" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+  </div>
+  <div class="site-wrap" id="home-section">
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
 
-		<!-- Banner -->
-		<section id="banner">
-			<video autoplay loop muted playsinline id="video-bg">
-				<source src="videos/thunder.mp4" type="video/mp4">
-				Your browser does not support the video tag.
-			</video>
-			<div class="content">
-				<header>
-					<h2 class="elexonh2">Elexon Electrical Services</h2>
-					<p>Powering London Safely and Efficiently</p>
-				</header>
-			</div>
-			<a href="#one" class="goto-next scrolly">Next</a>
-		</section>
+    <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-6 col-md-3 col-xl-4  d-block">
+            <h1 class="mb-0 site-logo">
+              <a href="index.html" class="h2 mb-0">Elexon
+              </a>
+            </h1>
+          </div>
 
-		<!-- One -->
-		<section id="one" class="spotlight style1 bottom">
-			<span class="image fit main"><img src="images/light1.png" alt="" /></span>
-			<div class="content">
-				<div class="container">
-					<div class="row">
-						<div class="col-4 col-12-medium">
-							<header>
-								<h2>Energizing London Homes and Businesses</h2>
-							</header>
-						</div>
-						<div class="col-4 col-12-medium">
-							<p><strong>Elexon Electrical Services</strong> provides reliable and efficient electrical
-								services for homes and businesses across London.
-								For electrical rewiring, fire alarm installations and EV charger
-								setups, Elexon is your one-stop solution for all electrical needs in London.
-							</p>
-						</div>
-						<div class="col-4 col-12-medium">
-							<p>With our team of certified and experienced electricians, we ensure safety, efficiency,
-								and reliability in every project we undertake.
-								Trust us to light up your home or business with unparalleled expertise and dedication.
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<a href="#two" class="goto-next scrolly">Next</a>
-		</section>
+          <div class="col-12 col-md-9 col-xl-8 main-menu">
+            <nav class="site-navigation position-relative text-right" role="navigation">
+              <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block ml-0 pl-0">
+                <li><a href="#home-section" class="nav-link">Home</a></li>
+                <li><a href="#services-section" class="nav-link">Services</a></li>
+                <li><a href="#about-section" class="nav-link">About Us</a></li>
+                <li><a href="#testimonials-section" class="nav-link">Testimonials</a></li>
+                <li><a href="#contact-section" class="nav-link">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
 
-		<!-- Two -->
-		<section id="two" class="spotlight style2 right">
-			<span class="image fit main"><img src="images/upgrade.jpg" alt="" /></span>
-			<div class="content">
-				<header>
-					<h2>Our Services</h2>
-					<p>Comprehensive electrical services to meet all your needs.</p>
-				</header>
-				<ul class="feature-icons">
-					<li class="icon solid fa-plug">Electrical Rewiring</li>
-					<li class="icon solid fa-eye">Inspection & Testing</li>
-					<li class="icon solid fa-wrench">Electrical Troubleshooting</li>
-					<li class="icon solid fa-fire">Fire Alarm & Emergency Systems</li>
-					<li class="icon solid fa-arrow-up">Consumer Unit Upgrades</li>
-					<li class="icon solid fa-search">EICR & PAT Testing</li>
-					<li class="icon solid fa-bolt">EV Charger Installation</li>
-					<li class="icon solid fa-camera">CCTV Installation</li>
-				</ul>
-			</div>
-			<a href="#three" class="goto-next scrolly">Next</a>
-		</section>
+          <div class="col-6 col-md-9 d-inline-block d-lg-none ml-md-0 mb-1"><a href="#"
+              class="site-menu-toggle js-menu-toggle float-right"><span class="icon-menu h3"></span></a>
+          </div>
+        </div>
+      </div>
+    </header>
 
-		<!-- Three -->
-		<section id="three" class="spotlight style3 left">
-			<span class="image fit main bottom"><img src="images/work-1.jpg" alt="" /></span>
-			<div class="content">
-				<header>
-					<h2>Electrical Services</h2>
-					<h4>Rewiring</h4>
-					<p>Professional electrical rewiring services to ensure safety and efficiency in your property.</p>
+    <div class="site-blocks-cover" style="overflow: hidden;">
+      <video autoplay loop muted playsinline id="video-bg" class="bg-video">
+        <source src="videos/thunder.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <div class="container">
+       
+        <div class="row align-items-center justify-content-center">
+          <div class="col-md-12" style="position: relative;" data-aos="fade-up" data-aos-delay="2000">
+            <!-- <img src="images/undraw_lightbulb_moment_re_ulyo.svg" alt="Image" class="img-fluid img-absolute">
+             -->
 
-					<h4>Inspection & Testing</h4>
-					<p>Thorough inspection and testing to identify and resolve electrical issues.</p>
+             
+            <div class="row mb-4" data-aos="fade-up" data-aos-delay="200">
+              <div class="col-lg-6 mr-auto">
+                <h1>Elexon Electrical Services</h1>
+                <p class="mb-5">Powering London Safely and Efficiently</p>
+                <div>
+                  <a href="#services-section" class="btn btn-primary mr-2 mb-2">Our Services</a>
+                </div>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-					<h4>Electrical Troubleshooting</h4>
-					<p>Expert troubleshooting services to diagnose and fix electrical problems.</p>
+    <div class="site-section" id="services-section">
+      <div class="container">
+        <div class="row mb-5 justify-content-center text-center" data-aos="fade-up">
+          <div class="col-7 text-center mb-5 mt-5">
+            <h2 class="section-title">Energizing London Homes and Businesses</h2>
+            <p class=""><b>Elexon Electrical Services</b> provides reliable and efficient electrical services for homes and businesses across London. For electrical rewiring, fire alarm installations and EV charger setups, Elexon is your one-stop solution for all electrical needs in London.</p>
+          </div>
+        </div>
+        <div class="row align-items-stretch">
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up">
+            <div class="unit-4 d-block">
+              <div class="unit-4-icon mb-3">
+                <span class="icon-wrap"><span class="text-primary icon-plug"></span></span>
+              </div>
+              <div class="mt-1">
+                <h3>Electrical Rewiring</h3>
+                <p>Professional electrical rewiring services to ensure safety and efficiency.</p>
+                <p><a href="#">Learn More</a></p>
+              </div>
+            </div>
 
-					<h4>Maintenance</h4>
-					<p>Regular maintenance services to keep your electrical systems running smoothly and efficiently.
-					</p>
-				</header>
-			</div>
-			<a href="#four" class="goto-next scrolly">Next</a>
-		</section>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="100">
 
-		<!-- Four -->
-		<section id="four" class="spotlight style2 right">
-			<span class="image fit main"><img src="images/fire00.jpg" alt="" /></span>
-			<div class="content">
-				<header>
-					<h2>Safety Services</h2>
-					<h4>Fire Alarm & Emergency Systems</h4>
-					<p>Installation and maintenance of fire alarm and emergency lighting systems to ensure safety
-						compliance.</p>
+            <div class="unit-4 d-block">
+              <div class="unit-4-icon mb-3">
+                <span class="icon-wrap"><span class="text-primary icon-search"></span></span>
+              </div>
+              <div class="mt-1">
+                <h3>Inspection & Testing</h3>
+                <p>Thorough inspection and testing to identify and resolve electrical issues.</p>
+                <p><a href="#">Learn More</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="unit-4 d-block">
+              <div class="unit-4-icon mb-3">
+                <span class="icon-wrap"><span class="text-primary icon-wrench"></span></span>
+              </div>
+              <div>
+                <h3>Electrical Troubleshooting</h3>
+                <p>Expert troubleshooting services to diagnose and fix electrical problems.</p>
+                <p><a href="#">Learn More</a></p>
+              </div>
+            </div>
+          </div>
 
-					<h4>CCTV Installation</h4>
-					<p>Professional CCTV installation services to enhance security and surveillance.</p>
-				</header>
-			</div>
-			<a href="#five" class="goto-next scrolly">Next</a>
-		</section>
 
-		<!-- Five -->
-		<section id="five" class="spotlight style3 left">
-			<span class="image fit main bottom"><img src="images/ev-0.jpg" alt="" /></span>
-			<div class="content">
-				<header>
-					<h2>Other Services</h2>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up">
+            <div class="unit-4 d-block">
+              <div class="unit-4-icon mb-3">
+                <span class="icon-wrap"><span class="text-primary icon-fire"></span></span>
+              </div>
+              <div class="mt-1">
+                <h3>Fire Alarm Systems</h3>
+                <p>Installation and maintenance of fire alarm and emergency lighting systems.</p>
+                <p><a href="#">Learn More</a></p>
+              </div>
+            </div>
+          </div>
 
-					<h4>EV Charger Installation</h4>
-					<p>Expert installation of EV chargers to support sustainable transportation.</p>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="unit-4 d-block">
+              <div class="unit-4-icon mb-3">
+                <span class="icon-wrap"><span class="text-primary icon-camera"></span></span>
+              </div>
+              <div class="mt-1">
+                <h3>CCTV Installation</h3>
+                <p>Professional CCTV installation services to enhance security and surveillance.</p>
+                <p><a href="#">Learn More</a></p>
+              </div>
+            </div>
 
-					<h4>Consumer Unit Upgrades</h4>
-					<p>Upgrading consumer units for enhanced safety and efficiency.</p>
 
-					<h4>EICR & PAT Testing</h4>
-					<p>EICR and PAT testing services to ensure electrical safety and compliance with regulations.</p>
-				</header>
-			</div>
-			<a href="#last" class="goto-next scrolly">Next</a>
-		</section>
+          </div>
 
-		<!-- Last -->
-		<section id="last" class="wrapper style2 special fade">
-			<div class="container">
-				<header>
-					<h2>Let's Connect</h2>
-					<p><strong>Contact us</strong> today to discuss your electrical needs. We're here to help with any
-						questions or inquiries you may have. Let's make your electrical projects a success together!</p>
-				</header>
-				<form method="post" action="#" class="cta">
-					<div class="row gtr-uniform gtr-50">
-						<div class="col-8 col-12-xsmall"><input type="email" name="email" id="email"
-								placeholder="Your Email Address" /></div>
-						<div class="col-4 col-12-xsmall"><input type="submit" value="Connect" class="fit primary" />
-						</div>
-					</div>
-				</form>
-			</div>
-		</section>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="unit-4 d-block">
+              <div class="unit-4-icon mb-3">
+                <span class="icon-wrap"><span class="text-primary icon-bolt"></span></span>
+              </div>
+              <div class="mt-1">
+                <h3>EV Charger Installation</h3>
+                <p>Expert installation of EV chargers to support sustainable transportation.</p>
+                <p><a href="#">Learn More</a></p>
+              </div>
+            </div>
+          </div>
 
-		<!-- Footer -->
-		<footer id="footer">
-			<h2>Reach Us</h2>
-			<ul class="icons">
-				<li>
-					<h4>Email</h4>
-					<a href="#">admin@elexonlondon.co.uk</a>
-				</li>
-				<li>
-					<h4>Phone</h4>
-					<a href="#">(+44) 7848 834227</a>
-				</li>
-				<li>
-					<h4>Address</h4>
-					<span>17B Northbrook Rd, Ilford IG1 3BP, UK</span>
-				</li>
-			</ul>
-			<ul class="icons">
-				<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-				<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-				<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-				<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-				<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-				<li><a href="#" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
-			</ul>
-			<ul class="copyright">
-				<li>&copy; Elexon Electrical Services. All rights reserved.</li>
-				<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-			</ul>
-		</footer>
+        </div>
+      </div>
+    </div>
 
-	</div>
+    <div class="feature-big">
+      <div class="container">
+        <div class="row mb-5 site-section">
+          <div class="col-lg-7" data-aos="fade-right">
+            <img src="images/work-1.jpg" alt="Image" class="img-fluid">
+          </div>
+          <div class="col-lg-5 pl-lg-5 ml-auto mt-md-5 mt-5">
+            <h2 class="text-black">Electrical Rewiring</h2>
+            <p class="mb-4">Professional electrical rewiring services to ensure safety and efficiency in your property.</p>
 
-	<!-- Scripts -->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.scrolly.min.js"></script>
-	<script src="assets/js/jquery.dropotron.min.js"></script>
-	<script src="assets/js/jquery.scrollex.min.js"></script>
-	<script src="assets/js/browser.min.js"></script>
-	<script src="assets/js/breakpoints.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<script src="assets/js/main.js"></script>
+            <div class="author-box" data-aos="fade-left">
+              <div class="d-flex mb-4">
+                <div class="mr-3">
+                  <img src="images/person_4.jpg" alt="Image" class="img-fluid rounded-circle">
+                </div>
+                <div class="mr-auto text-black">
+                  <strong class="font-weight-bold mb-0">Grey Simpson</strong> <br>
+                  Co-Founder, XYZ Inc.
+                </div>
+              </div>
+              <blockquote>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus vitae ipsa asperiores
+                inventore aperiam iure?&rdquo;</blockquote>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-5 row mb-5 site-section ">
+          <div class="col-lg-7 order-1 order-lg-2" data-aos="fade-left">
+            <img src="images/cctv-0.jpg" alt="Image" class="img-fluid">
+          </div>
+          <div class="col-lg-5 pr-lg-5 mr-auto mt-5 order-2 order-lg-1">
+            <h2 class="text-black">CCTV Installations</h2>
+            <p class="mb-4">Professional CCTV installation services to enhance security and surveillance.</p>
+            <div class="author-box" data-aos="fade-right">
+              <div class="d-flex mb-4">
+                <div class="mr-3">
+                  <img src="images/person_1.jpg" alt="Image" class="img-fluid rounded-circle">
+                </div>
+                <div class="mr-auto text-black">
+                  <strong class="font-weight-bold mb-0">Kimberly Gush</strong> <br>
+                  Co-Founder, XYZ Inc.
+                </div>
+              </div>
+              <blockquote>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus vitae ipsa asperiores
+                inventore aperiam iure?&rdquo;</blockquote>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mb-5 site-section">
+          <div class="col-lg-7" data-aos="fade-right">
+            <img src="images/fire00.jpg" alt="Image" class="img-fluid">
+          </div>
+          <div class="col-lg-5 pl-lg-5 ml-auto mt-md-5 mt-5">
+            <h2 class="text-black">Fire Alarm & Emergency Systems</h2>
+            <p class="mb-4">Installation and maintenance of fire alarm and emergency lighting systems to ensure safety
+              compliance.</p>
+
+            <div class="author-box" data-aos="fade-left">
+              <div class="d-flex mb-4">
+                <div class="mr-3">
+                  <img src="images/person_4.jpg" alt="Image" class="img-fluid rounded-circle">
+                </div>
+                <div class="mr-auto text-black">
+                  <strong class="font-weight-bold mb-0">Grey Simpson</strong> <br>
+                  Co-Founder, XYZ Inc.
+                </div>
+              </div>
+              <blockquote>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus vitae ipsa asperiores
+                inventore aperiam iure?&rdquo;</blockquote>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-5 row mb-5 site-section ">
+          <div class="col-lg-7 order-1 order-lg-2" data-aos="fade-left">
+            <img src="images/ev-0.jpg" alt="Image" class="img-fluid">
+          </div>
+          <div class="col-lg-5 pr-lg-5 mr-auto mt-5 order-2 order-lg-1">
+            <h2 class="text-black">EV Charger Installation</h2>
+            <p class="mb-4">Expert installation of EV chargers to support sustainable transportation.</p>
+
+            <div class="author-box" data-aos="fade-right">
+              <div class="d-flex mb-4">
+                <div class="mr-3">
+                  <img src="images/person_1.jpg" alt="Image" class="img-fluid rounded-circle">
+                </div>
+                <div class="mr-auto text-black">
+                  <strong class="font-weight-bold mb-0">Kimberly Gush</strong> <br>
+                  Co-Founder, XYZ Inc.
+                </div>
+              </div>
+              <blockquote>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus vitae ipsa asperiores
+                inventore aperiam iure?&rdquo;</blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="site-section bg-light" id="about-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="section-title mb-3">About Us</h2>
+          </div>
+        </div>
+        <div class="row mb-5">
+          <div class="col-lg-6" data-aos="fade-right">
+            <img src="images/01.jpg" alt="Image" class="img-fluid" style="object-fit: cover; height: 70vh;">
+          </div>
+          <div class="col-lg-5 ml-auto pl-lg-5 mt-4">
+            <h2 class="text-black mb-4 h3 font-weight-bold">Our Mission</h2>
+            <p class="mb-4">At Elexon Electrical Services, our mission is to deliver exceptional electrical solutions that enhance safety, efficiency, and innovation for our clients across London. We are committed to providing top-notch service through our team of highly skilled and dedicated professionals, ensuring every project meets the highest standards of quality and reliability. By embracing the latest technologies and fostering a culture of continuous improvement, we aim to build lasting relationships and contribute to the advancement of our community.</p>
+            <ul class="ul-check mb-5 list-unstyled success">
+              <li>Exceptional Service Quality</li>
+              <li>Innovation and Technology</li>
+              <li>Client-Centric Approach</li>
+            </ul>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+    <div class="site-section testimonial-wrap mb-5" id="testimonials-section">
+      <div class="container">
+        <div class="row mb-5 mt-5">
+          <div class="col-12 text-center">
+            <h2 class="section-title mb-3">Testimonials</h2>
+          </div>
+        </div>
+      </div>
+      <div class="slide-one-item home-slider owl-carousel">
+        <div>
+          <div class="testimonial">
+            <figure class="mb-4 d-block align-items-center justify-content-center">
+              <div><img src="images/person_3.jpg" alt="Image" class="w-100 img-fluid mb-3 shadow"></div>
+            </figure>
+            <blockquote class="mb-3">
+              <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam
+                quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet
+                dolores excepturi earum unde iusto.&rdquo;</p>
+            </blockquote>
+            <p class="text-black"><strong>John Smith</strong></p>
+          </div>
+        </div>
+        <div>
+          <div class="testimonial">
+
+            <figure class="mb-4 d-block align-items-center justify-content-center">
+              <div><img src="images/person_2.jpg" alt="Image" class="w-100 img-fluid mb-3 shadow"></div>
+            </figure>
+
+            <blockquote class="mb-3">
+              <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam
+                quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet
+                dolores excepturi earum unde iusto.&rdquo;</p>
+            </blockquote>
+
+            <p class="text-black"><strong>Robert Aguilar</strong></p>
+
+
+          </div>
+        </div>
+
+        <div>
+          <div class="testimonial">
+            <figure class="mb-4 d-block align-items-center justify-content-center">
+              <div><img src="images/person_4.jpg" alt="Image" class="w-100 img-fluid mb-3 shadow"></div>
+            </figure>
+            <blockquote class="mb-3">
+              <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam
+                quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet
+                dolores excepturi earum unde iusto.&rdquo;</p>
+            </blockquote>
+            <p class="text-black"><strong>Roger Spears</strong></p>
+
+
+          </div>
+
+        </div>
+
+        <div>
+          <div class="testimonial">
+            <figure class="mb-4 d-block align-items-center justify-content-center">
+              <div><img src="images/person_1.jpg" alt="Image" class="w-100 img-fluid mb-3 shadow"></div>
+            </figure>
+            <blockquote class="mb-3">
+              <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam
+                quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet
+                dolores excepturi earum unde iusto.&rdquo;</p>
+            </blockquote>
+            <p class="text-black"><strong>Kyle McDonald</strong></p>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="site-section bg-image2 overlay" id="contact-section"
+      style="background-image: url('images/bulbsky.jpg');">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="section-title mb-3 text-white">Contact Us</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-7 mb-5">
+            <form action="#" class="p-5 bg-white">
+              <h2 class="h4 text-black mb-3">Contact Form</h2>
+              <div class="row form-group">
+                <div class="col-md-6 mb-3 mb-md-0">
+                  <label class="text-black" for="fname">First Name</label>
+                  <input type="text" id="fname" class="form-control rounded-0">
+                </div>
+                <div class="col-md-6">
+                  <label class="text-black" for="lname">Last Name</label>
+                  <input type="text" id="lname" class="form-control rounded-0">
+                </div>
+              </div>
+              <div class="row form-group">
+                <div class="col-md-12">
+                  <label class="text-black" for="email">Email</label>
+                  <input type="email" id="email" class="form-control rounded-0">
+                </div>
+              </div>
+              <div class="row form-group">
+                <div class="col-md-12">
+                  <label class="text-black" for="subject">Subject</label>
+                  <input type="subject" id="subject" class="form-control rounded-0">
+                </div>
+              </div>
+              <div class="row form-group">
+                <div class="col-md-12">
+                  <label class="text-black" for="message">Message</label>
+                  <textarea name="message" id="message" cols="30" rows="7" class="form-control rounded-0"
+                    placeholder="Leave your message here..."></textarea>
+                </div>
+              </div>
+              <div class="row form-group">
+                <div class="col-md-12">
+                  <input type="submit" value="Send Message" class="btn btn-primary mr-2 mb-2">
+                </div>
+              </div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer py-5 text-center">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12">
+            <p class="mb-0">
+              <a href="#" class="p-3"><span class="icon-facebook"></span></a>
+              <a href="#" class="p-3"><span class="icon-twitter"></span></a>
+              <a href="#" class="p-3"><span class="icon-instagram"></span></a>
+              <a href="#" class="p-3"><span class="icon-linkedin"></span></a>
+              <a href="#" class="p-3"><span class="icon-pinterest"></span></a>
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <p class="mb-0">
+              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+              Copyright &copy;
+              <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made
+              with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com"
+                target="_blank">Colorlib</a>
+              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> <!-- .site-wrap -->
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/bootstrap-datepicker.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/jquery.sticky.js"></script>
+
+
+  <script src="js/main.js"></script>
 
 </body>
 

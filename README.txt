@@ -1,11 +1,8 @@
 # UK-ELEXON
 
-Credits:
-Design: HTML5 UP - https://html5up.net/
+For more awesome templates please visit https://colorlib.com/wp/templates/
 
-Icons:
-Font Awesome (fontawesome.io)
+Copyright information for the template can't be altered/removed unless you purchase a license.
+More information about the license is available here: https://colorlib.com/wp/licence/
 
-Other:
-jQuery (jquery.com)
-Responsive Tools (github.com/ajlkn/responsive-tools)
+Removing copyright information without the license will result in suspension of your hosting and/or domain name(s).
