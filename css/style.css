@@ -7,6 +7,10 @@ body {
   font-size: 1rem;
 }
 
+.mainBannerWrapper {
+  display: none !important;
+}
+
 .home-section {
     overflow-x: hidden !important;
 }
@@ -183,8 +187,9 @@ form {
 }
 
 .site-section>div>img {
-  height: 65vh;
+  height: 85vh;
   object-fit: cover;
+  width: 100%;
 }
 
 @media (min-width: 768px) {
@@ -2046,9 +2051,23 @@ form {
 }
 
 .testimonial figure img {
-  max-width: 100px;
+  max-width: 60px;
   margin: 0 auto;
   border-radius: 50%;
+}
+
+.gallery figure img {
+  height: 50vh;
+  max-width: 50vw;
+  object-fit: cover;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+@media (max-width: 420px) {
+  .gallery figure img {
+    max-width: 90%;
+  }
 }
 
 .breadcrumb-custom {
